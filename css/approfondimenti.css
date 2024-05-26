@@ -1,0 +1,78 @@
+h1{
+  color: rgb(0, 0, 0);
+  margin-top: 100px;
+  font-size: 40px;
+  width: 950px;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+  font-size:30px;
+  margin-left: 120px;
+  width: 700px;
+}
+
+img{
+  border: solid black;
+  border-width: 3px;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 210px;
+  left: 1100px;
+}
+
+body{
+  background-image:url(../img/sfondo_appro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+.pulse{
+  position: sticky;
+  top: 1;
+}
+.pulse a:link{
+  background-color: #023047;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+}
+.pulse a:visited{
+  background-color: #023047;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+}
+.pulse a:hover{
+  background-color: #219ebc;
+  font-size:21px;
+  }
+
+.pulse a:active {
+  background-color: #219ebc;
+  font-size:21px;
+  }
+  
+.pulse a {
+  border-radius: 100px;
+  }
+
+
+
+/*.txts{
+  float: left;
+  width: 1100px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: 60px;
+}*/
